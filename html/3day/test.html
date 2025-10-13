@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>입력양식 테스트</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>입력양식 속성</legend>
+        <p>
+          <label>아이디: <input type="text" name="user_id" size="10" /></label>
+        </p>
+        <p>
+          <label
+            >비밀번호: <input type="password" name="user_pwd" size="10"
+          /></label>
+        </p>
+        <p>
+          <label>검색: <input type="search" name="user_search" /></label>
+        </p>
+        <p>
+          <label>이메일: <input type="email" name="user_email" /></label>
+        </p>
+        <p>
+          <label
+            >전화번호:
+            <input
+              type="tel"
+              name="user_tel"
+              pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+          /></label>
+        </p>
+        <p>
+          <label>컬러선택: <input type="color" name="user_color" /></label>
+        </p>
+        <p>
+          <label
+            >수량:
+            <input type="number" name="user_number" value="1" min="1" max="5"
+          /></label>
+        </p>
+        <p>
+          <label
+            >만족도: <input type="range" name="user_range" min="0" max="100"
+          /></label>
+        </p>
+        <p>
+          <label for="yes"
+            >예:
+            <input type="radio" id="yes" name="user_yn" value="YES" checked
+          /></label>
+          <label for="no"
+            >아니오: <input type="radio" id="no" name="user_yn" value="NO"
+          /></label>
+        </p>
+        <p>
+          <label for="html"
+            >html
+            <input
+              type="checkbox"
+              id="html"
+              name="user_check"
+              value="HTML"
+              checked
+          /></label>
+          <label for="css"
+            >css <input type="checkbox" id="css" name="user_check" value="CSS"
+          /></label>
+        </p>
+        <p>
+          <input type="submit" value="전송" />
+        </p>
+        <p>
+          <input type="submit" value="취소" />
+        </p>
+        <p>
+          <input type="submit" value="확인" />
+        </p>
+        <p>
+          <input type="image" src="../images/bt.png" value="검색" />
+        </p>
+        <p>
+          <input type="file" name="user_file" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>

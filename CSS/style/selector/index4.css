@@ -1,0 +1,11 @@
+/* div p{
+  color: red;
+} */
+
+.div_child{
+  color: red;
+}
+.div_grand{
+  color: greenyellow;
+  background-color: aquamarine;
+}

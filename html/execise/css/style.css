@@ -1,0 +1,43 @@
+/* 1. 스타일 지정하기
+  1-1 각 태그의 너비, 높이, 배경색, 테두리 속성 지정
+2. main 태그 위치 정하기
+3. 간격조정하기 */
+
+header {
+  width: 310px;
+  height: 50px;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+nav {
+  width: 100px;
+  height: 200px;
+  background-color: rgb(196, 20, 20);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+article {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(211, 211, 29);
+  border-radius: 10px;
+}
+footer {
+  width: 310px;
+  height: 50px;
+  background-color: rgb(102, 45, 7);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+main {
+  display: flex;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0px;
+}
