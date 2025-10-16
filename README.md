@@ -1,109 +1,80 @@
-1번 답 C
+day02 기초점검 답
+1번 B
 
-2번 답 undefind
+2번 C
 
-3번 답 변수를 선언하지 않고 변수를 호출 했기 때문에 
+3번 A
 
-4번 obj.n = 2;
+4번 B
 
-5번 A
+5번 C
 
-6번 3
+6번 B
 
-7번 B
+7번 C
 
-8번 3
+8번 A
 
-9번 'hello'
+9번 C
 
-10번 'hi'
+10번 B
 
-11번 'abc'
+11번 C
 
-12번 false
+12번 B
 
-13번 'bat'
-14번 true,false
+13번 B
 
-15번 'odd'
+14번 B
+
+15번 B
 
 16번 A
 
-17번 'DONE'
+17번 B
 
-18번 'Ann'
+18번 A
 
-19번 100
+19번 A
 
-20번 true
+20번 A
 
-21번 1,2,3,4
+21번 B
 
-22번 배열의 마지막 요소를 제거하고 그 제거된 요소를 반환
+22번 C
 
-23번 1번 인덱스에 있는 숫자부터 3번째 앞에 있는 숫자까지 잘라내어 복사본을 만들어 반환해라 2,3
+23번 C
 
-24번 1번 인덱에 있는 숫자부터 3번째 인덱스 앞에 있는 숫자까지 잘라내라 1,4
+24번 C
 
-25번 [2,4,6]
+25번 A
 
-26번 [1,3,4]
+26번 C
 
-27번 true
+27번 B
 
-28번 6
+28번 C
 
-29번 0  1  2
+29번 D
 
-30번 반복 가능한 속성을 가지는 컬렉션을 순회할때 효과적이다.
+30번 B
 
-31번 배열과 객체를 순회할때 효과적이다.
+31번 B
 
-32번 6
+32번 B
 
-33번 H i
+33번 A
 
-34번 in, of
+34번 A
 
-35번 
-for(const c of colors) {
-  console.log(c);
-}
+35번 A
 
-36번
-for(const ss of str) {
-  console.log(ss);
-}
+36번 B
 
-37번
-const total = scores.reduce((acc,cur) => acc+cur,0);
-const average = total/scores.length;
-console.log('총점 :'+ total);
-console.log('평균 :'+ average);
+37번 A
 
-38번
-for (let i = 0; i <= 2; i++) {
-  console.log(nums[i]);
-}
+38번 B
 
-39번
-for(const u in user){
- console.log(user[u]);
-}
+39번 A
 
-40번
-arr.forEach(
-  function(value) {
-  console.log(value)
-  }
-);
-
-41번 키와 값을 한쌍으로 이루어진 컬렉션이다.
-
-42번 중복되지 않는 값들의 집합이다.
-
-43번 123
-
-44번 3
-
-45번 size
+40번 B
