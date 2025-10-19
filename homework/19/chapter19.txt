@@ -1,0 +1,8 @@
+1번 답 : 1번 - document object model
+2번 답 : 2번 
+3번 답 : 1번 - 요소.style
+4번 답 : 2번 - append()
+5번 답 : 3번 - textHTML
+6번 
+
+7번은 모르겠습니다 ㅠㅠ

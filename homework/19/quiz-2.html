@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>연습문제 2</title>
+    <style>
+      #row,
+      #column {
+        width: 30px;
+        height: 20px;
+      }
+      table {
+        width: 300px;
+      }
+      table,
+      td {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 10px;
+      }
+      form {
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" id="row" />행 <input type="text" id="column" />열
+      <button id="button">작성</button>
+    </form>
+
+    <script>
+      const row = document.querySelector('#row');
+      const column = document.querySelector('#column');
+      const button = document.getElementById('button');
+      button.onclick = function () {};
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+1번 답 : const discount = 0.1;
+
+2번 답 : price * qty | 총액 : 4500
+
+3번 답 : 
+if(stock <=0) {
+  console.log('품절');
+} else console.log('구매 가능');
+
+4번 답 : 3
+
+5번 답 : 
+
+6번 답 : 
+let sum = 0;
+for(const total of arr){
+  sum += total;
+}
+consol.log(sum);
+
+7번 답 : 
+const pricaMap = new Map{'사과',1500};
+for(let[key,value] of priceMap.entries()){
+  consol.log(key +':'+ value);
+};
+
+8번 답 : 
+const set = new Set([101,101,102,103,103,103]);
+console.log(set);
+set.size;
+
+9번 답 for ... of
